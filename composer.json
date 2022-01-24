@@ -1,5 +1,6 @@
 {
   "name": "shooktea/request-deserializer-bundle",
+  "version": "1.0.0",
   "description": "Small bundle for deserializing and validating requests from JSON to objects",
   "type": "symfony-bundle",
   "license": "MIT",
@@ -9,7 +10,6 @@
       "email": "norbert.kowalik@icloud.com"
     }
   ],
-  "version": "1.0.0",
   "require": {
     "php": "8.*",
     "symfony/framework-bundle": "6.*",
