@@ -15,5 +15,10 @@
     "symfony/framework-bundle": "6.*",
     "symfony/serializer": "6.*",
     "symfony/validator": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShookTea\\RequestDeserializerBundle\\": "src/"
+    }
   }
 }
