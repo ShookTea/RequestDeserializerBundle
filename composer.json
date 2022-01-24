@@ -1,0 +1,19 @@
+{
+  "name": "shooktea/request-deserializer-bundle",
+  "description": "Small bundle for deserializing and validating requests from JSON to objects",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Norbert Kowalik",
+      "email": "norbert.kowalik@icloud.com"
+    }
+  ],
+  "version": "1.0.0",
+  "require": {
+    "php": "8.*",
+    "symfony/framework-bundle": "6.*",
+    "symfony/serializer": "6.*",
+    "symfony/validator": "6.*"
+  }
+}
