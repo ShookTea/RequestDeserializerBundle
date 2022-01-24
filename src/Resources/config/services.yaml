@@ -1,0 +1,10 @@
+services:
+  shooktea_request_deserializer.request_value_resolver:
+    class: ShookTea\RequestDeserializerBundle\Request\RequestValueResolver
+    tags:
+      - { name: controller.argument_value_resolver, priority: 50 }
+
+  shooktea_request_deserializer.query_value_resolver:
+    class: ShookTea\RequestDeserializerBundle\Query\QueryValueResolver
+    tags:
+      - { name: controller.argument_value_resolver, priority: 50 }
